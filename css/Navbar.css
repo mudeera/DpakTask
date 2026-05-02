@@ -2,7 +2,7 @@
 
 
 
-ul.menu {
+.Navbar .menu {
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,10 +10,10 @@ ul.menu {
     justify-content: center;
     gap: 10px;
 }
-li.menu_list {
+.Navbar .menu_list {
     list-style: none;
 }
-a.menu_link {
+.Navbar .menu_link {
     text-decoration: none;
     color: #000;
     font-size: 14px;
