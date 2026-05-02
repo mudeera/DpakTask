@@ -22,7 +22,17 @@
     margin-bottom: 4px;
     font-family: sans-serif;
 }
-
+ul#menu_hidden {
+    width: 100px;
+    height: 150px;
+    border-radius: 8px;
+    background: lightgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
 
 
 
