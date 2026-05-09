@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Page</title>
+
+    <style>
+        .Navbar .menu_list {
+            list-style: none;
+            margin-bottom: 8px;
+        }
+        .Navbar .menu_list:hover {
+            background: purple;
+        }
+        .Navbar .menu_list:hover a {
+            color: #ffffff;
+        }
+        .Navbar .menu_link {
+            text-decoration: none;
+            color: #000;
+            font-size: 14px;
+            font-weight: 900;
+            font-family: sans-serif;
+            text-transform: capitalize;
+        }
+        .Navbar #menu_hidden {
+            width: 100px;
+            border-radius: 8px;
+            background: #ebebeb;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0;
+            margin: 0;
+        }
+        .click-hidden {
+            width: 32px;
+            height: 17px;
+            padding: 0;
+            border: navajowhite;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="Navbar">
+        <div class="container">
+            <div class="wrapper">
+
+                <button class="click-hidden" onclick="document.getElementById('menu_hidden').hidden = !document.getElementById('menu_hidden').hidden">
+                </button>
+
+                <ul id="menu_hidden" hidden>
+                    <li class="menu_list">
+                        <a href="#" class="menu_link">home</a>
+                    </li>
+
+                    <li class="menu_list">
+                        <a href="#" class="menu_link">about</a>
+                    </li>
+
+                    <li class="menu_list">
+                        <a href="#" class="menu_link">gallery</a>
+                    </li>
+
+                    <li class="menu_list">
+                        <a href="#" class="menu_link">blog</a>
+                    </li>
+
+                    <li class="menu_list">
+                        <a href="#" class="menu_link">contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

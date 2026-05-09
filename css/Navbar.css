@@ -1,7 +1,4 @@
 
-
-
-
 .Navbar .menu {
     margin: 0;
     padding: 0;
@@ -14,6 +11,12 @@
     list-style: none;
     margin-bottom: 8px;
 }
+.Navbar .menu_list:hover {
+    background: purple;
+}
+.Navbar .menu_list:hover a {
+    color: #ffffff;
+}
 .Navbar .menu_link {
     text-decoration: none;
     color: #000;
@@ -24,7 +27,7 @@
     font-family: sans-serif;
     text-transform: capitalize;
 }
-ul#menu_hidden {
+.Navbar #menu_hidden {
     width: 100px;
     height: 150px;
     border-radius: 8px;
